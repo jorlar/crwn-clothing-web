@@ -9,7 +9,7 @@ import {
   signInWithGoogleRedirect,
 } from "../../utils/firebase/firebase.utils";
 
-const SignIn = () => {
+const Authentication = () => {
 
   const logGoogleUser = async () => {
     const { user } = await signInWithGooglePopup();
@@ -25,4 +25,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Authentication;
